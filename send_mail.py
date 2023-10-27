@@ -37,7 +37,7 @@ def send(customerList, password):
     smtp_server = "smtp@server.com"                                       #
     smtp_port = 25                                                        #
     subject = "My Invoice {}".format(day + " " + month + " " + year)      #
-    filename = "Invoice " + day + "_" + month + "_" + year                #
+    filename = "Invoice_" + day + "_" + month + "_" + year                #
     #######################################################################
 
     # Load your email address
