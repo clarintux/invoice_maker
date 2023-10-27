@@ -35,7 +35,7 @@ Invoice Maker (v0.1) supports English, Italian, French, Spanish and German.
      pip install wxPython
      ```
      - Install [wkhtmltopdf](https://wkhtmltopdf.org/):
-     - Install pdfkit:
+     - Install [pdfkit](https://pypi.org/project/pdfkit/):
      ```
      pip install pdfkit
      ```
