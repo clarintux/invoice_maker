@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Invoice_</title>
+    <link rel="stylesheet" href="../../../templates/style6.css" media="all" />
+  </head>
+  <body>
+    <header class="clearfix">
+      <div id="logo">
+        <img src="../../../logo.jpg">
+      </div>
+      <div id="company">
+        <h2 class="name">My Name</h2>
+        <div>My Address</div>
+        <div>My City</div>
+        <div>PhoneNumber: My Phone</div>
+        <div>Email: <a href="My Email">My Email</a></div>
+      </div>
+      </div>
+    </header>
+    <main>
+      <div id="details" class="clearfix">
+        <div id="client">
+          <div class="to">INVOICE_TO_:</div>
+          <h2 class="name">Customer's name</h2>
+          <div class="address">Customer's address</div>
+          <div class="address">Customer's city</div>
+        </div>
+        <div id="invoice">
+          <h1>Invoice_</h1>
+          <div class="date">Date: current_date<br>Invoice #: invoice_number</div>
+        </div>
+      </div>
+      <table border="0" cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <th class="no">#</th>
+            <th class="desc">Description</th>
+            <th class="unit">Price</th>
+            <th class="qty">Quantity</th>
+            <th class="total">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+            <!--ITEMS6-->
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="2">Total</td>
+            <td>my_total</td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="2">TAX_ my_tax%</td>
+            <td>currency_symbol plus_</td>
+          </tr>
+          <tr>
+            <td colspan="2"></td>
+            <td colspan="2">Amount Due</td>
+            <td>MyTax</td>
+          </tr>
+        </tfoot>
+      </table>
+      <div id="thanks">Thank you!</div>
+      <div id="notices">
+        <div>Additional Notes:</div>
+        <div class="notice">TEXT1<br><br></div>
+        <div class="notice">TEXT2<br><br></div>
+        <div class="notice">TEXT3<br><br><br><br></div>
+        <div class="notice">Bank account:</div>
+        <div class="notice">My Name - MyBankAccount, VAT Number: MyVatNumber</div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Invoice_</title>
+    <link rel="stylesheet" href="../../../templates/style5.css" media="all" />
+  </head>
+  <body>
+    <header class="clearfix">
+      <div id="logo">
+        <img src="../../../logo.jpg">
+      </div>
+      <h1>Invoice_</h1>
+      <div id="company" class="clearfix">
+        <div>My Name</div>
+        <div>My Address<br /> My City</div>
+        <div>PhoneNumber: My Phone</div>
+        <div>Email: <a href="mailto:My Email">My Email</a></div>
+      </div>
+      <div id="project">
+        <div><span>CLIENT</span> Customer's name</div>
+        <div><span>ADDRESS</span> Customer's address</div>
+        <div><span> </span> Customer's city</div>
+        <div><span>Date</span> current_date</div>
+        <div><span>Invoice #</span> invoice_number</div>
+      </div>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th class="service">Item</th>
+            <th class="desc">Description</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+            <!--ITEMS5-->
+          <tr>
+            <td colspan="4">Total</td>
+            <td class="total">my_total</td>
+          </tr>
+          <tr>
+            <td colspan="4">TAX_ my_tax%</td>
+            <td class="total">currency_symbol plus_</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="grand total">Amount Due</td>
+            <td class="grand total">MyTax</td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="notices">
+        <div>NOTICE:</div>
+        <div class="notice">TEXT1<br><br></div>
+      </div>
+      <div class="notice">TEXT2<br><br></div>
+      </div>
+      <div class="notice">TEXT3<br><br><br></div>
+      </div>
+      <div class="notice">Bank account:</div>
+      </div>
+      <div class="notice">My Name - MyBankAccount, VAT Number: MyVatNumber</div>
+      </div>
+    </main>
+  </body>
+</html>

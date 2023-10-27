@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	
+	<title>Invoice_</title>
+	
+	<link rel='stylesheet' type='text/css' href='../../../templates/css/style.css' />
+	<link rel='stylesheet' type='text/css' href='../../../templates/css/print.css' media="print" />
+
+</head>
+
+<body>
+
+	<div id="page-wrap">
+
+		<textarea id="header">Invoice_</textarea>
+		
+		<div id="identity">
+		
+            <textarea id="address">My Name
+My Address
+My City
+PhoneNumber: My Phone
+Email: <a href = "mailto: My Email">My Email</a></textarea>
+
+            <div id="logo">
+
+              <div id="logoctr">
+              </div>
+
+              <div id="logohelp">
+                <input id="imageloc" type="text" size="50" value="" /><br />
+                (max width: 540px, max height: 100px)
+              </div>
+              <img id="image" src="../../../logo.jpg" alt="logo" />
+            </div>
+		
+		</div>
+		
+		<div style="clear:both"></div>
+		
+		<div id="customer">
+
+            <textarea id="customer-title">Customer's name
+            </textarea>
+
+            <table id="meta">
+                <tr>
+                    <td class="meta-head">Invoice #</td>
+                    <td><textarea>invoice_number</textarea></td>
+                </tr>
+                <tr>
+
+                    <td class="meta-head">Date</td>
+                    <td><textarea id="date">current_date</textarea></td>
+                </tr>
+                <tr>
+                    <td class="meta-head">Amount Due</td>
+                    <td><div class="due">MyTax</div></td>
+                </tr>
+
+            </table>
+		
+		</div>
+
+        <div id ="customer">
+            <textarea id="address">Customer's address
+Customer's city
+            </textarea>
+        </div>
+		
+		<table id="items">
+		
+		  <tr>
+		      <th>Item</th>
+		      <th>Description</th>
+		      <th>Price</th>
+		      <th>Quantity</th>
+		      <th>Total</th>
+		  </tr>
+
+          <!--ITEMS4-->
+		  
+		  <tr id="hiderow">
+		  </tr>
+		  
+		  <tr>
+
+		      <td colspan="2" class="blank"> </td>
+		      <td colspan="2" class="total-line">Total</td>
+		      <td class="total-value"><div id="total">my_total</div></td>
+		  </tr>
+		  <tr>
+
+		      <td colspan="2" class="blank"> </td>
+		      <td colspan="2" class="total-line">TAX_</td>
+		      <td class="total-value"><div id="total">my_tax%</div></td>
+		  </tr>
+		  <tr>
+		      <td colspan="2" class="blank"> </td>
+		      <td colspan="2" class="total-line">Amount Paid</td>
+
+		      <td class="total-value"><textarea id="paid">currency_symbol 0.00</textarea></td>
+		  </tr>
+		  <tr>
+		      <td colspan="2" class="blank"> </td>
+		      <td colspan="2" class="total-line balance">Balance Due</td>
+		      <td class="total-value balance"><div class="due">MyTax</div></td>
+		  </tr>
+		
+		</table>
+		
+		<div id="terms">
+		  <h5>Terms</h5>
+          <textarea>TEXT1</textarea>
+
+          <textarea>TEXT2</textarea>
+
+          <textarea>TEXT3</textarea>
+
+          <textarea>Bank account:</textarea>
+          <textarea>My Name - MyBankAccount, VAT Number: MyVatNumber</textarea>
+		</div>
+	
+	</div>
+	
+</body>
+
+</html>

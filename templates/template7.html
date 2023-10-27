@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Invoice_</title>
+    <link rel="stylesheet" href="../../../templates/style7.css" media="all" />
+  </head>
+  <body>
+    <main>
+      <h1  class="clearfix"><small><span>Date</span><br />current_date</small> Invoice_ <small><span>Invoice #</span><br /> invoice_number</small></h1>
+      <table>
+        <thead>
+          <tr>
+            <th class="service">Service</th>
+            <th class="desc">Description</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+            <!--ITEMS7-->
+          <tr>
+            <td colspan="4" class="sub">Total</td>
+            <td class="sub total">my_total</td>
+          </tr>
+          <tr>
+            <td colspan="4">TAX_ my_tax%</td>
+            <td class="total">currency_symbol plus_</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="grand total">Amount Due</td>
+            <td class="grand total">MyTax</td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="details" class="clearfix">
+        <div id="project">
+          <div class="arrow"><div class="inner-arrow"><span>CLIENT</span> Customer's name</div></div>
+          <div class="arrow"><div class="inner-arrow"><span>ADDRESS</span> Customer's address</div></div>
+          <div class="arrow"><div class="inner-arrow"><span></span> Customer's city</div></div>
+        </div>
+        <div id="company">
+          <div class="arrow back"><div class="inner-arrow">My Name <span>COMPANY</span></div></div>
+          <div class="arrow back"><div class="inner-arrow">My Address <span>ADDRESS</span></div></div>
+          <div class="arrow back"><div class="inner-arrow">My City <span></span></div></div>
+          <div class="arrow back"><div class="inner-arrow">My Phone <span>PhoneNumber</span></div></div>
+          <div class="arrow back"><div class="inner-arrow"><a href="mailto:My Email">My Email</a> <span>EMAIL</span></div></div>
+        </div>
+      </div>
+      <div id="notices">
+        <div>NOTICE:</div>
+        <div class="notice">TEXT1<br><br></div>
+        <div class="notice">TEXT2<br><br></div>
+        <div class="notice">TEXT3<br><br><br><br></div>
+        <div class="notice">Bank account:</div>
+        <div class="notice">My Name - MyBankAccount, VAT Number: MyVatNumber</div>
+      </div>
+    </main>
+  </body>
+</html>
