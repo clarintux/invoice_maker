@@ -592,7 +592,7 @@ class MainFrame(wx.Frame):
         myGrid.SetColLabelValue(3, _(u"Date (optional)"))
         myGrid.SetColLabelValue(4, _(u"Price"))
         myGrid.SetColLabelValue(5, _(u"Total"))
-        myGrid.SetColSize(0 ,80)
+        myGrid.SetColSize(0 ,130)
         myGrid.SetColSize(1 ,225)
         myGrid.SetColSize(2 ,225)
         myGrid.SetColSize(3 ,120)
