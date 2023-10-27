@@ -79,3 +79,10 @@ Assuming `invoice_maker.py` is in your path, it can be used like:
 ./invoice_maker.py de --all --template 2
 ./invoice_maker.py en --all --template 3 --send
 ```
+
+## Credits for Templates
+- [https://codepen.io/tjoen/pen/wvgvLX](https://codepen.io/tjoen/pen/wvgvLX)
+- [https://codepen.io/pvanfas/pen/vYEmGmK](https://codepen.io/pvanfas/pen/vYEmGmK)
+- [https://bootsnipp.com/snippets/9gjD](https://bootsnipp.com/snippets/9gjD)
+- [https://htmlpdfapi.com/blog/free_html5_invoice_templates](https://htmlpdfapi.com/blog/free_html5_invoice_templates)
+- [https://sparksuite.github.io/simple-html-invoice-template/](https://sparksuite.github.io/simple-html-invoice-template/)
