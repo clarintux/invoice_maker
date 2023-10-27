@@ -50,6 +50,9 @@ pip3 install pdfkit
 
 Replace the image `logo.jpg` with a JPG file with your logo.
 Modify TEXT1, TEXT2 and TEXT3 in the file `text.txt` accordently to your needs.
+Start invoice_maker and save your data and a invoice number.
+Insert data and invoice items for each customer.
+Enjoy!  :-)
 
 ## Usage
 
@@ -57,7 +60,7 @@ Modify TEXT1, TEXT2 and TEXT3 in the file `text.txt` accordently to your needs.
 - `python invoice_maker` - Launch the GUI
 - `--help` - display help and exit
 - `<locale code>` - use selected locale without GUI
-- `--template` - choose a template between 0 and 6 without GUI
+- `--template` - choose a template between 1 and 7 without GUI
 - `--all` - generate all invoices without GUI
 - `--send` - send all generated invoices without GUI
 
