@@ -54,7 +54,10 @@ Replace the image `logo.jpg` with a JPG file with your logo.
 Modify TEXT1, TEXT2 and TEXT3 in the file `text.txt` accordently to your needs.
 Start invoice_maker and save your data and a invoice number.
 Insert data and invoice items for each customer.
+
 Enjoy!  :-)
+
+P.S.: To automatically send invoices to customers, changes in the module `send_mail.py` are required. I can not predict wich port and server and things are used in your smtp server...
 
 ## Usage
 
