@@ -71,8 +71,8 @@ Enjoy!  :-)
 Assuming `invoice_maker.py` is in your path, it can be used like:
 ```
 ./invoice_maker.py
-
-./invoice_maker.py it --all --template 0
-./invoice_maker.py de --all --template 1
-./invoice_maker.py en --all --template 2 --send
+./invoice_maker.py --help
+./invoice_maker.py it --all --template 1
+./invoice_maker.py de --all --template 2
+./invoice_maker.py en --all --template 3 --send
 ```
