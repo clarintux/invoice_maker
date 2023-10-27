@@ -14,6 +14,8 @@ Cross-platform and multi-language automated invoice generator, wich support vari
 
 A single generator that meets the different needs of everyone is probably impossible.
 To try to achieve this, Invoice Maker lets the user choose the language, the appearance of invoices and other things.
+Invoice Maker (v0.1) supports English, Italian, French, Spanish and German.
+7 HTML templates are available.
 
 ## Installation
 
