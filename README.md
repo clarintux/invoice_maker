@@ -21,7 +21,7 @@ Invoice Maker (v0.1) supports English, Italian, French, Spanish and German.
 
 - On Linux:
   ```
-  sudo apt install git wkhtmltopd wxpython-tools python3-pdfkit  # requirements
+  sudo apt install git wkhtmltopdf wxpython-tools python3-pdfkit  # requirements
   sudo ln -s /usr/bin/python3 /usr/bin/python  # symbolic link to use python3 with 'python' command
   git clone https://github.com/clarintux/invoice_maker.git  # clone this repository in '$HOME/invoice_maker'
   chmod +x ~/invoice_maker/invoice_maker.py   # permit execution
