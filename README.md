@@ -19,36 +19,31 @@ Invoice Maker (v0.1) supports English, Italian, French, Spanish and German.
 
 ## Installation
 
-- Install [Python](https://www.python.org/), if not preinstalled in your System.
-- Prerequisites for Linux:
-* dpkg-dev
-* build-essential
-* python3-dev
-* freeglut3-dev
-* libgl1-mesa-dev
-* libglu1-mesa-dev
-* libgstreamer-plugins-base1.0-dev
-* libgtk-3-dev
-* libjpeg-dev
-* libnotify-dev
-* libpng-dev
-* libsdl2-dev
-* libsm-dev
-* libtiff-dev
-* libwebkit2gtk-4.0-dev
-* libxtst-dev
-- Install [wxPython](https://www.wxpython.org/):
-```
-pip3 install wxpython
-```
-- Install [wkhtmltopdf](https://wkhtmltopdf.org/):
-```
-sudo apt install wkhtmltopdf # (for debian-based systems)
-```
-- Install pdfkit:
-```
-pip3 install pdfkit
-```
+- On Linux:
+  ```
+  sudo apt install git wkhtmltopd wxpython-tools python3-pdfkit  # requirements
+  sudo ln -s /usr/bin/python3 /usr/bin/python  # symbolic link to use python3 with 'python' command
+  git clone https://github.com/clarintux/invoice_maker.git  # clone this repository in '$HOME/invoice_maker'
+  chmod +x ~/invoice_maker/invoice_maker.py   # permit execution
+  chmod +x ~/invoice_maker/send_mail.py       # permit execution
+  ```
+
+- On Windows and Mac:
+     - If not installed, install [Python](https://www.python.org/)
+     - Install [wxPython](https://www.wxpython.org/):
+     ```
+     pip install wxPython
+     ```
+     - Install [wkhtmltopdf](https://wkhtmltopdf.org/):
+     - Install pdfkit:
+     ```
+     pip install pdfkit
+     ```
+     - Clone the repository:
+     ```
+     git clone https://github.com/clarintux/invoice_maker.git
+     ```
+
 
 Replace the image `logo.jpg` with a JPG file with your logo.
 Modify TEXT1, TEXT2 and TEXT3 in the file `text.txt` accordently to your needs.
