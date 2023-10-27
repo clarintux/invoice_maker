@@ -6,7 +6,7 @@ Invoice Maker
 Cross-platform and multi-language automated invoice generator, wich support various invoice templates. Written in Python and wxPython.</a>.
 </p>
 <p align="center">
-<img src="https://github.com/clarintux/invoice_maker/blob/master/icons/invoice_icon.png" height="400">
+<img src="https://github.com/clarintux/invoice_maker/blob/master/icons/invoice_maker.jpg" height="400">
 </p>
 <hr />
 
