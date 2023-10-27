@@ -1,0 +1,14 @@
+TEXT1=As a small business owner, sales tax is not charged!
+TEXT2=We are pleased that you have chosen us.
+TEXT3=This invoice was generated automatically and is therefore valid without a signature.
+
+###########################################################
+#                                                         #
+#   README !!!                                            #
+#                                                         #
+#   Please modify the texts with you text.                #
+#   You can have a empty text after the equal sign,       #
+#   but it is required that the first three line start    #
+#   with TEXT1/2/3 and the equal sign, as by default.     #
+#                                                         #
+###########################################################
