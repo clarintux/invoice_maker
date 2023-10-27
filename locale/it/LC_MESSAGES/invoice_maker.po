@@ -1,1 +1,315 @@
+# Translations for Invoice Maker.
+# Copyright (C) 2023
+# This file is distributed under the same license as the invoice_maker package.
+# Clarintux <clarintux@clarintuxmail.eu.org>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-26 18:02+0200\n"
+"PO-Revision-Date: 2023-10-26 18:16+0200\n"
+"Last-Translator: Clarintux <clarintux@clarintuxmail.eu.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
+#: invoice_maker.py:171
+msgid "ERROR: Couldn't read file './my_business/my_infos.pkl'  :-("
+msgstr "ERRORE: Impossibile leggere il file './my_business/my_infos.pkl'  :-("
+
+#: invoice_maker.py:183 invoice_maker.py:198 invoice_maker.py:401
+msgid "ERROR: Couldn't read file '"
+msgstr "ERRORE: Impossibile leggere il file '"
+
+#: invoice_maker.py:212
+msgid "ERROR: Couldn't read file 'text.txt'  :-("
+msgstr "ERRORE: Impossibile leggere il file 'text.txt'  :-("
+
+#: invoice_maker.py:215
+msgid "Hello"
+msgstr "Salve"
+
+#: invoice_maker.py:216
+msgid "Thank you!"
+msgstr "Grazie!"
+
+#: invoice_maker.py:217
+msgid "Thank you for your order"
+msgstr "Grazie per il suo ordine"
+
+#: invoice_maker.py:218
+msgid "Invoice"
+msgstr "Fattura"
+
+#: invoice_maker.py:219
+msgid "INVOICE TO"
+msgstr "Fattura per"
+
+#: invoice_maker.py:220
+msgid "CLIENT"
+msgstr "CLIENTE"
+
+#: invoice_maker.py:221
+msgid "COMPANY"
+msgstr "COMPAGNIA"
+
+#: invoice_maker.py:222
+msgid "ADDRESS"
+msgstr "INDIRIZZO"
+
+#: invoice_maker.py:223
+msgid "Invoice Nr."
+msgstr "Fattura nr."
+
+#: invoice_maker.py:225
+msgid "Date"
+msgstr "Data"
+
+#: invoice_maker.py:226
+msgid "Phone"
+msgstr "Numero tel."
+
+#: invoice_maker.py:228
+msgid "Amount Due"
+msgstr "Ammonto dovuto"
+
+#: invoice_maker.py:229
+msgid "Amount Paid"
+msgstr "Ammonto pagato"
+
+#: invoice_maker.py:230
+msgid "Balance Due"
+msgstr "Ammonto dovuto"
+
+#: invoice_maker.py:231
+msgid "TAX"
+msgstr "TASSE"
+
+#: invoice_maker.py:237
+msgid "Contact"
+msgstr "Contatti"
+
+#: invoice_maker.py:243
+msgid "Bank account"
+msgstr "Coordinate bancarie"
+
+#: invoice_maker.py:245
+msgid "VAT Number"
+msgstr "Partita IVA"
+
+#: invoice_maker.py:247
+msgid "Item"
+msgstr "Articolo"
+
+#: invoice_maker.py:248
+msgid "Service"
+msgstr "Servizio"
+
+#: invoice_maker.py:249
+msgid "Description"
+msgstr "Descrizione"
+
+#: invoice_maker.py:250 invoice_maker.py:593
+msgid "Price"
+msgstr "Prezzo"
+
+#: invoice_maker.py:251 invoice_maker.py:589
+msgid "Quantity"
+msgstr "Quantità"
+
+#: invoice_maker.py:252 invoice_maker.py:594
+msgid "Total"
+msgstr "Totale"
+
+#: invoice_maker.py:256
+msgid "Additional Notes"
+msgstr "Note Addizionali"
+
+#: invoice_maker.py:257
+msgid "NOTICE"
+msgstr "DA NOTARE"
+
+#: invoice_maker.py:344
+msgid "ERROR: Couldn't write to file '"
+msgstr "ERRORE: Impossibile scrivere sul file '"
+
+#: invoice_maker.py:354
+msgid "ERROR: Couldn't write to file './my_business/my_infos.pkl'  :-("
+msgstr "ERRORE: Impossibile scrivere sul file './my_business/my_infos.pkl'  :-("
+
+#: invoice_maker.py:458 invoice_maker.py:638 invoice_maker.py:719
+#: invoice_maker.py:758
+msgid "Ready"
+msgstr "Pronto"
+
+#: invoice_maker.py:480
+msgid "&Generate invoice"
+msgstr "&Genera fattura"
+
+#: invoice_maker.py:482
+msgid "Generate &all invoices"
+msgstr "Gener&a tutte le fatture"
+
+#: invoice_maker.py:484
+msgid "Generate and send &mails"
+msgstr "Genera fatture e invia e&mail"
+
+#: invoice_maker.py:498
+msgid "Your name and surname*:"
+msgstr "Tuo nome e cognome*:"
+
+#: invoice_maker.py:503
+msgid "Customer's name*:"
+msgstr "Nome del cliente*:"
+
+#: invoice_maker.py:508
+msgid "Your address (street and number)*:"
+msgstr "Tuo indirizzo (via e n. civico)*:"
+
+#: invoice_maker.py:513
+msgid "Customer's address*:"
+msgstr "Indirizzo del cliente*:"
+
+#: invoice_maker.py:518
+msgid "Your ZIP code and city*:"
+msgstr "Tuo CAP e città*:"
+
+#: invoice_maker.py:523
+msgid "Customer's ZIP code and city*:"
+msgstr "CAP e città del cliente*:"
+
+#: invoice_maker.py:528
+msgid "Your phone number*:"
+msgstr "Tuo numero telefonico*:"
+
+#: invoice_maker.py:533
+msgid "Your email address*:"
+msgstr "Tuo indirizzo email*:"
+
+#: invoice_maker.py:538
+msgid "Customer's email address:"
+msgstr "Indirizzo email cliente:"
+
+#: invoice_maker.py:543
+msgid "Your VAT number*:"
+msgstr "Tua partita IVA*:"
+
+#: invoice_maker.py:548
+msgid "TAX % to apply (0 means no tax)*:"
+msgstr "TASSE % da applicare (0 per nessuna)*:"
+
+#: invoice_maker.py:553
+msgid "Invoice number*:"
+msgstr "Numero fattura*:"
+
+#: invoice_maker.py:558
+msgid "Your bank account*:"
+msgstr "Tue coordinate bancarie*:"
+
+#: invoice_maker.py:590
+msgid "Item or name"
+msgstr "Articolo o nome"
+
+#: invoice_maker.py:591
+msgid "Description (optional)"
+msgstr "Descrizione (opzionale)"
+
+#: invoice_maker.py:592
+msgid "Date (optional)"
+msgstr "Data (opzionale)"
+
+#: invoice_maker.py:664
+msgid "Do you want to delete row number "
+msgstr "Vuoi cancellare la riga numero "
+
+#: invoice_maker.py:664
+msgid "Warning!"
+msgstr "Attenzione!"
+
+#: invoice_maker.py:697
+msgid "Choose a invoice to remove..."
+msgstr "Scegli fattura da eliminare..."
+
+#: invoice_maker.py:726
+msgid "Choose a invoice to open..."
+msgstr "Scegli fattura da aprire..."
+
+#: invoice_maker.py:738
+msgid "Error: Couln't load invoice file "
+msgstr "Errore: Impossibile caricare il file fattura "
+
+#: invoice_maker.py:784
+msgid "Error: First insert all your data and a invoice number!"
+msgstr "Errore: Inserisci prima tutti i tuoi dati e un numero fattura!"
+
+#: invoice_maker.py:789
+msgid "Error: Invoice number must be a positiv integer!"
+msgstr "Errore: Il numero fattura deve essere un intero positivo!"
+
+#: invoice_maker.py:800
+msgid "Error: Couln't write to file 'my_infos.pkl'  :-("
+msgstr "Errore: Impossibile scrivere sul file 'my_infos.pkl'  :-("
+
+#: invoice_maker.py:804
+msgid "Saved your data and invoice number"
+msgstr "Salvati i tuoi dati e il numero fattura"
+
+#: invoice_maker.py:809
+msgid "Error: TAX must be a positiv integer less or equal than 100"
+msgstr "Errore: TASSE deve essere un intero positivo minore di 100"
+
+#: invoice_maker.py:828
+msgid "Error: Couln't write to file "
+msgstr "Error: Impossibile scrivere sul file "
+
+#: invoice_maker.py:832
+msgid "Saved your data and invoice for "
+msgstr "Salvati i tuoi dati e la fattura per "
+
+#: invoice_maker.py:835
+msgid "Error: First insert all customer's data!"
+msgstr "Errore: Inserisci prima tutti i dati del cliente!"
+
+#: invoice_maker.py:850
+msgid "Cannot generate without customer's data..."
+msgstr "Non posso generare senza dati del cliente..."
+
+#: invoice_maker.py:858
+msgid "Generate invoice for "
+msgstr "Genera fattura per "
+
+#: invoice_maker.py:872 invoice_maker.py:892
+msgid "No customer's founded..."
+msgstr "Nessun cliente trovato..."
+
+#: invoice_maker.py:877
+msgid "Generate all invoices"
+msgstr "Genera tutte le fatture"
+
+#: invoice_maker.py:910
+msgid "Automated invoices generator with various templates"
+msgstr "Generatore automatico di fatture con vari template disponibili"
+
+#: invoice_maker.py:932
+msgid "Choose template..."
+msgstr "Scegli un template..."
+
+#: invoice_maker.py:960
+msgid "Enter your email password"
+msgstr "Inserisci la tua password email"
+
+#: invoice_maker.py:971
+msgid "Sended invoice(s)  :-)"
+msgstr "Fattura(e) inviata(e)  :-)"
+
+#: invoice_maker.py:971 invoice_maker.py:973
+msgid "INFO"
+msgstr "INFO"
+
+#: invoice_maker.py:973
+msgid "Generated invoice(s)  :-)"
+msgstr "Generata(e) fattura(e)  :-)"
