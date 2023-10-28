@@ -76,11 +76,11 @@ P.S.: To automatically send invoices to customers, changes in the module `send_m
 
 Assuming `invoice_maker.py` is in your path, it can be used like:
 ```
-./invoice_maker.py
-./invoice_maker.py --help
-./invoice_maker.py it --all --template 1
-./invoice_maker.py de --all --template 2
-./invoice_maker.py en --all --template 3 --send
+invoice_maker.py
+invoice_maker.py --help
+invoice_maker.py it --all --template 1
+invoice_maker.py de --all --template 2
+invoice_maker.py en --all --template 3 --send
 ```
 
 ## Credits for Templates
