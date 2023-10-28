@@ -30,7 +30,7 @@ Invoice Maker (v0.1) supports English, Italian, French, Spanish and German.
   
 - On Linux (Arch based):
   ```
-  yay git wkhtmltopdf-static python-pdfkit python-wxpython  # requirements
+  yay -S git wkhtmltopdf-static python-pdfkit python-wxpython  # requirements
   git clone https://github.com/clarintux/invoice_maker.git  # clone this repository in '$HOME/invoice_maker'
   chmod +x ~/invoice_maker/invoice_maker.py   # permit execution
   chmod +x ~/invoice_maker/send_mail.py       # permit execution
