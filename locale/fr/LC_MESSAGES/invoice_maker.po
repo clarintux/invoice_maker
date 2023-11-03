@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 18:02+0200\n"
-"PO-Revision-Date: 2023-10-27 08:36+0200\n"
+"POT-Creation-Date: 2023-11-03 10:27+0100\n"
+"PO-Revision-Date: 2023-11-03 11:15+0100\n"
 "Last-Translator: Clarintux <clarintux@clarintuxmail.eu.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
@@ -79,7 +79,7 @@ msgstr "Somme"
 
 #: invoice_maker.py:229
 msgid "Amount Paid"
-msgstr "montant payé"
+msgstr "Montant payé"
 
 #: invoice_maker.py:230
 msgid "Balance Due"
@@ -282,13 +282,17 @@ msgstr "Ne peut pas générer sans données du client..."
 msgid "Generate invoice for "
 msgstr "Générer facture pour "
 
-#: invoice_maker.py:872 invoice_maker.py:892
-msgid "No customer's founded..."
+#: invoice_maker.py:872
+msgid "No customer's found..."
 msgstr "Aucun client trouvé..."
 
 #: invoice_maker.py:877
 msgid "Generate all invoices"
 msgstr "Générer toutes les factures"
+
+#: invoice_maker.py:892
+msgid "No customer's founded..."
+msgstr "Aucun client trouvé..."
 
 #: invoice_maker.py:910
 msgid "Automated invoices generator with various templates"
