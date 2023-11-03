@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 18:02+0200\n"
-"PO-Revision-Date: 2023-10-D26 23:46+0200\n"
+"POT-Creation-Date: 2023-11-03 10:27+0100\n"
+"PO-Revision-Date: 2023-11-03 10:56+0100\n"
 "Last-Translator: Clarintux <clarintux@clarintuxmail.eu.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
@@ -282,13 +282,17 @@ msgstr "Kann ohne Kundendaten nicht generieren..."
 msgid "Generate invoice for "
 msgstr "Generieren Rechnung an "
 
-#: invoice_maker.py:872 invoice_maker.py:892
-msgid "No customer's founded..."
+#: invoice_maker.py:872
+msgid "No customer's found..."
 msgstr "Keine Kunde gefunden..."
 
 #: invoice_maker.py:877
 msgid "Generate all invoices"
 msgstr "Alle Rechnungen generieren"
+
+#: invoice_maker.py:892
+msgid "No customer's founded..."
+msgstr "Keine Kunde gefunden..."
 
 #: invoice_maker.py:910
 msgid "Automated invoices generator with various templates"
