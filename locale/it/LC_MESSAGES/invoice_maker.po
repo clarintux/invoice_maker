@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 18:02+0200\n"
-"PO-Revision-Date: 2023-10-26 18:16+0200\n"
+"POT-Creation-Date: 2023-11-03 10:27+0100\n"
+"PO-Revision-Date: 2023-11-03 10:40+0100\n"
 "Last-Translator: Clarintux <clarintux@clarintuxmail.eu.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: it\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: invoice_maker.py:171
 msgid "ERROR: Couldn't read file './my_business/my_infos.pkl'  :-("
-msgstr "ERRORE: Impossibile leggere il file './my_business/my_infos.pkl'  :-("
+msgstr "ERRORE: Impossibile leggere il file './my_business/my_infos.pkl"
 
 #: invoice_maker.py:183 invoice_maker.py:198 invoice_maker.py:401
 msgid "ERROR: Couldn't read file '"
@@ -47,7 +47,7 @@ msgstr "Fattura"
 
 #: invoice_maker.py:219
 msgid "INVOICE TO"
-msgstr "Fattura per"
+msgstr "FATTURA PER"
 
 #: invoice_maker.py:220
 msgid "CLIENT"
@@ -282,13 +282,17 @@ msgstr "Non posso generare senza dati del cliente..."
 msgid "Generate invoice for "
 msgstr "Genera fattura per "
 
-#: invoice_maker.py:872 invoice_maker.py:892
-msgid "No customer's founded..."
+#: invoice_maker.py:872
+msgid "No customer's found..."
 msgstr "Nessun cliente trovato..."
 
 #: invoice_maker.py:877
 msgid "Generate all invoices"
 msgstr "Genera tutte le fatture"
+
+#: invoice_maker.py:892
+msgid "No customer's founded..."
+msgstr "Nessun cliente trovato..."
 
 #: invoice_maker.py:910
 msgid "Automated invoices generator with various templates"
