@@ -869,7 +869,7 @@ class MainFrame(wx.Frame):
                 customerCount += 1
 
         if customerCount == 0:
-            self.sMsg = _(u"No customer's founded...")
+            self.sMsg = _(u"No customer's found...")
             self.SetStatusText(self.sMsg)
             return
 
